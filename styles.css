@@ -1,0 +1,145 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #001f3f; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.background-home {
+  background-image: url('https://img.freepik.com/free-vector/abstract-wave-line-with-space-your-text-vector-illustrationxdxaxdxa_460848-11844.jpg?w=826&t=st=1700045308~exp=1700045908~hmac=fc14226d8e7236e0e2db18f1c0973797dcc513d6d92168dcb98f174b7203c5f2');
+  background-size: cover;
+  color: #000; 
+}
+
+.background-report {
+  background-image: url("https://previews.123rf.com/images/sumberejeki/sumberejeki2007/sumberejeki200703220/151895553-illustration-vector-graphic-of-checklist-icon-fit-for-form-clipboard-symbol-mark-list-report-etc.jpg");
+  background-size: cover;
+}
+
+.background-donor {
+  background-image: url("https://static3.depositphotos.com/1003473/159/i/950/depositphotos_1597793-stock-photo-woman-giving-money-to-man.jpg");
+  background-size: cover;
+}
+
+.background-contact {
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/15/12/26/contact-us-1908763_1280.png");
+  background-size: cover;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.content-section {
+  margin-bottom: 20px;
+}
+
+.first-homes {
+  color: #FFD700;
+}
+
+h1 {
+  color: #ee4b2b;
+}
+
+h2, h3 {
+  color: #FFD700;
+}
+
+p {
+  line-height: 1.5;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50; /* Green */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.home-text {
+  color: #8B0000;
+}
+
+h1, h2 {
+  font-weight: 900;
+}
+
+h3 {
+  font-style: italic;
+}
+
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #808080;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
